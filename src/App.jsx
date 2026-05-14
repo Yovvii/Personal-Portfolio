@@ -125,8 +125,8 @@ function App() {
           data-aos-delay="300"
           data-aos-once="true"
         >
-          Berikut ini adalah beberapa tools yang sudah saya kuasai dan saya gunakan untuk
-          membuat website dan desain
+          Berikut ini adalah beberapa tools yang sudah saya kuasai dan saya
+          gunakan untuk membuat website dan desain
         </p>
         <div className="tools-box mt-14 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-4">
           {listTools.map((tool) => (
@@ -232,7 +232,7 @@ function App() {
           Mari terhubung dengan saya
         </p>
         <form
-          action="https://formsubmit.co/fjryovi@gmail.com"
+          action="https://api.web3forms.com/submit"
           method="POST"
           className="bg-zinc-800 p-10 sm:w-fit w-full mx-auto rounded-md"
           autoComplete="off"
@@ -241,6 +241,7 @@ function App() {
           data-aos-delay="500"
           data-aos-once="true"
         >
+          <input type="hidden" name="access_key" value="2b88f354-f19b-42f4-8cc6-6e5ed0977413"/>
           <div className="flex flex-col gap-6">
             <div className="flex flex-col gap-2">
               <label className="font-bold">Nama Lengkap</label>
