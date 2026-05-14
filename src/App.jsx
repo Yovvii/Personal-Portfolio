@@ -45,7 +45,7 @@ function App() {
 
         {/* Profile Pic */}
         <div
-          className="overflow-hidden relative md:ml-auto rounded-3xl animate__animated animate__fadeInUp animate__delay-3s
+          className="overflow-hidden relative md:ml-auto rounded-3xl animate__animated animate__fadeIn animate__delay-4s
           bg-gradient-to-t from-violet-700 to-transparent"
           loading="lazy"
         >
