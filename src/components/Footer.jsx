@@ -2,7 +2,7 @@ export const Footer = () => {
   return (
     <div className="mt-32 py-4 flex md:flex-row flex-col gap-6 md:gap-0 justify-between items-center">
       <h1 className="text-2xl font-bold">
-        <span className="md:text-violet-500 text-violet-900">My</span>
+        <span className="text-violet-500">My</span>
         Portfolio
       </h1>
       <div className="flex gap-7">
