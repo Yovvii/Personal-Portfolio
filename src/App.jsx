@@ -241,7 +241,11 @@ function App() {
           data-aos-delay="500"
           data-aos-once="true"
         >
-          <input type="hidden" name="access_key" value="2b88f354-f19b-42f4-8cc6-6e5ed0977413"/>
+          <input
+            type="hidden"
+            name="access_key"
+            value="2b88f354-f19b-42f4-8cc6-6e5ed0977413"
+          />
           <div className="flex flex-col gap-6">
             <div className="flex flex-col gap-2">
               <label className="font-bold">Nama Lengkap</label>
